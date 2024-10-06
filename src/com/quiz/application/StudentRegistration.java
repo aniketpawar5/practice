@@ -10,6 +10,13 @@ public class StudentRegistration {
 	private String city;
 	private String mailId;
 	private long mobileNumber;
+	private long aadharId;
+	
+	public long getAadharId() {
+		return aadharId;
+	}
+	public void setAadharId(String aadharId) {
+		this.aadharId = aadharId;
 	
 	public String getFirstName() {
 		return firstName;
