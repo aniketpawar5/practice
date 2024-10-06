@@ -12,9 +12,9 @@ public class StudentRegistration {
 	private long mobileNumber;
 	private long aadharId;
 	
-	public long getAadharId() {
+	/*public long getAadharId() {
 		return aadharId;
-	}
+	}*/
 	public void setAadharId(String aadharId) {
 		this.aadharId = aadharId;
 	
